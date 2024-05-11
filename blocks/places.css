@@ -9,8 +9,7 @@
   grid-template-areas:
     "title website"
     "image paragraph"
-    "image paragraph"
-    "link .";
+    "link paragraph";
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -20,15 +19,14 @@
   grid-template-areas:
     "title website"
     "image paragraph"
-    "image paragraph"
-    "link paragraph";
+    "link paragraph"
+    ". paragraph";
 }
 .place__image {
   grid-area: image;
   max-width: 460px;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   width: 100%;
-  object-fit: cover;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 .place__image:hover {
   filter: opacity(0.5);
