@@ -16,6 +16,7 @@
 }
 .place:nth-last-of-type(1) {
   margin-bottom: 90px;
+
   grid-template-areas:
     "title website"
     "image paragraph"
@@ -27,12 +28,14 @@
   max-width: 460px;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   width: 100%;
-  /* object-fit: scale-down; */
+  object-fit: cover;
 }
 .place__image:hover {
   filter: opacity(0.5);
 }
 .place__title {
+  display: flex;
+  align-items: flex-end;
   grid-area: title;
   font-weight: bold;
   font-size: 72px;
@@ -76,6 +79,7 @@
   line-height: 21.78px;
   /* font-weight: 600; */
   max-width: 356px;
+  max-height: 21px;
   border-radius: 4px;
   grid-area: link;
   color: #fff;
