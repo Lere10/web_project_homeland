@@ -47,14 +47,14 @@
   justify-content: flex-end;
 }
 
-.place__website__url-heading {
-  margin: 0px;
+.place__website-url-heading {
+  margin: 0px 0px 8px;
   color: #aaa;
   font-size: 12px;
   line-height: 14.52px;
 }
-.place__website__artist {
-  margin: 8px 0px 0px;
+.place__website-artist {
+  margin: 0px;
   color: #fff;
   font-size: 18px;
   line-height: 22px;
@@ -89,7 +89,7 @@
   border-radius: 4px;
   grid-area: link;
   color: #fff;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   padding: 13px 21px;
   text-align: center;
   text-decoration: none;
