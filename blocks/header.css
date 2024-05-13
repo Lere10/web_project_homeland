@@ -29,6 +29,8 @@
   max-width: 984px;
   margin: 0 auto;
   width: 100%;
+  background-image: linear-gradient(to right, #000 100%, #000 20%);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
