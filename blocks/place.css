@@ -89,7 +89,7 @@
   border-radius: 4px;
   grid-area: link;
   color: #fff;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   padding: 13px 21px;
   text-align: center;
   text-decoration: none;
