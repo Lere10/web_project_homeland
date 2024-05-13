@@ -1,36 +1,39 @@
 .content {
-  max-width: 984px;
   margin: 0 auto;
 }
+.contents {
+  margin: 0 auto;
+  max-width: 984px;
+}
 
-.content__page {
+.contents__page {
   padding-top: 92px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 830px;
 }
-.content__title {
+.contents__title {
   margin: 0px 0px 40px;
   font-size: 54px;
   font-weight: bold;
   line-height: 58px;
 }
-.content__quote {
+.contents__quote {
   margin: 0px 0px 10px;
   max-width: 738px;
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
 }
-.content__quote-author {
+.contents__quote-author {
   margin: 0px;
   font-size: 24px;
   line-height: 34px;
   margin-right: 98px;
   align-self: flex-end;
 }
-.content__text {
+.contents__text {
   max-width: 722px;
   margin: 32px 0px 0px;
   font-size: 16px;
@@ -38,34 +41,34 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .content__page {
+  .contents__page {
     padding-top: 90px;
     max-width: 720px;
     margin: 0 auto;
   }
-  .content__title {
+  .contents__title {
     margin-bottom: 50px;
     font-size: 45px;
     line-height: 49px;
   }
-  .content__quote-author {
+  .contents__quote-author {
     margin: 0px;
   }
 }
 @media screen and (max-width: 544px) {
-  .content__page {
+  .contents__page {
     padding-top: 64px;
     max-width: 288px;
   }
-  .content__title {
+  .contents__title {
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 40px;
   }
-  .content__quote {
+  .contents__quote {
     line-height: 30px;
   }
-  .content__quote-author {
+  .contents__quote-author {
     margin-top: 10px;
   }
 }
